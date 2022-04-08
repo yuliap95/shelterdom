@@ -1,0 +1,24 @@
+.about {
+    background-color: $color-heading;
+  
+}
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px 0 40px;
+}
+
+.statistic {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2.4rem;
+    color: $color-statistic;
+    right: 175px;
+}
+
+.img_about {
+    left: 175px;
+}

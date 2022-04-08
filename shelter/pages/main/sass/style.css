@@ -16,17 +16,26 @@ h1 {
 }
 
 h2 {
+  font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
   font-size: 44px;
-  line-height: 130%;
+  line-height: 5.7rem;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
 }
 
 h3 {
+  font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
-  line-height: 130%;
+  line-height: 4.5rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
 }
 
 h4 {
@@ -86,7 +95,7 @@ h5 {
 .header {
   background: rgb(35, 33, 33);
   background: linear-gradient(90deg, rgb(84, 67, 54) 0%, rgb(35, 33, 33) 35%);
-  padding: 42px 0 87px 0;
+  padding: 42px 0 102px 0;
 }
 
 .header__wrapper {
@@ -124,12 +133,25 @@ h5 {
   background: linear-gradient(90deg, rgb(84, 67, 54) 0%, rgb(35, 33, 33) 35%);
 }
 
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .donation {
   background-color: #F6F6F6;
 }
 
 .our_friends {
   background-color: #F6F6F6;
+}
+
+.friend__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 400px 607px 400px;
 }
 
 .not_only {
@@ -141,6 +163,49 @@ h5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 40px 0 40px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: #CDCDCD;
+}
+
+.not_only__content {
+  padding-right: 42px;
+  width: 460px;
+  height: 322px;
+  left: 0px;
+}
+
+.not_only__button {
+  padding-top: 42px;
+}
+
+.about {
+  background-color: #FFFFFF;
+}
+
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px 0 40px;
+}
+
+.statistic {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 2.4rem;
+  color: #4C4C4C;
+  right: 175px;
+}
+
+.img_about {
+  left: 175px;
 }
 
 /*# sourceMappingURL=style.css.map */
