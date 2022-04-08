@@ -1,0 +1,10 @@
+.footer {
+    background: rgb(35,33,33);
+    background: linear-gradient(90deg, rgba(84,67,54,1) 0%, rgba(35,33,33,1) 35%); 
+}
+
+.footer__wrapper {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}

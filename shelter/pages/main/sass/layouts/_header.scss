@@ -1,0 +1,40 @@
+.header {
+    background: rgb(35,33,33);
+    background: linear-gradient(90deg, rgba(84,67,54,1) 0%, rgba(35,33,33,1) 35%); 
+    padding: 42px 0 87px 0;
+}
+
+.header__wrapper {
+
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    color: #FFFFFF;
+    margin: 0 39px 0 41px;
+    
+}
+
+.navigation {
+    display: flex;
+    
+    
+
+}
+.navigation__link {
+    list-style: none;
+    padding: 0 35px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    font-family: 'Arial';
+    color: #CDCDCD;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+   
+}

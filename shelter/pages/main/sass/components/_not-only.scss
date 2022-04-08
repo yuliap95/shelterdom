@@ -1,0 +1,10 @@
+.not_only {
+    background: rgb(35,33,33);
+    background: linear-gradient(90deg, rgba(84,67,54,1) 0%, rgba(35,33,33,1) 35%); 
+    
+}
+.not_only__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

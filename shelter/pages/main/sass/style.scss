@@ -1,3 +1,13 @@
-@import "base/base";
 @import "abstract/constants";
-@import "layouts/wrapper"
+@import "base/base";
+@import "base/buttons";
+
+//Layouts
+@import "layouts/wrapper";
+@import "layouts/header";
+@import "Layouts/footer";
+//Components
+@import "components/donation";
+@import "components/our-friend";
+@import "components/not-only";
+
