@@ -112,7 +112,7 @@ h5 {
 
 .navigation__link {
   list-style: none;
-  padding: 0 35px;
+  margin: 0 35px;
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
@@ -128,15 +128,18 @@ h5 {
   justify-content: space-between;
 }
 
+.active_li {
+  border-bottom: 3px solid #F1CDB3;
+}
+
+.logo {
+  text-decoration: none;
+  display: inline-block;
+}
+
 .footer {
   background: rgb(35, 33, 33);
   background: linear-gradient(90deg, rgb(84, 67, 54) 0%, rgb(35, 33, 33) 35%);
-}
-
-.footer__wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .donation {
@@ -181,6 +184,11 @@ h5 {
 
 .not_only__button {
   padding-top: 42px;
+}
+
+.subtitle {
+  letter-spacing: -0.03em;
+  margin-top: -10px;
 }
 
 .about {
