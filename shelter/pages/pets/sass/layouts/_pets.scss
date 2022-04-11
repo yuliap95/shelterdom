@@ -1,0 +1,97 @@
+.pets {
+  font-family: Georgia, sans-serif;
+  background-color: #F6F6F6;
+  max-width: 1280px;
+  padding-bottom: 100px;
+}
+
+.pets_title {
+  text-align: center;
+  font-size: 3.5rem;
+  max-width: 400px;
+  color: #545454;
+  line-height: 45.5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 45px;
+}
+
+.pets_flex > div {
+  width: 25%;
+}
+
+.pets_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pets_block {
+  display: flex;
+  max-width: 270px;
+  height: 435px;
+  background-color: #FAFAFA;
+  border-radius: 9px 9px 0 0;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 20px 15px 20px;
+}
+
+.pets_name {
+  font-family: Georgia, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 22.72px;
+}
+
+.pets_btn {
+  border: 2px solid #F1CDB3;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 15px 45px 15px 45px;
+  text-decoration: none;
+  color: #292929;
+  text-align: center;
+  font-size: 1.7rem;
+}
+.btn {
+  padding-top: 30px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+  cursor: pointer;
+}
+
+.pagination-btn {
+  border-radius: 50px;
+  margin: 10px 10px 10px 10px;
+}
+
+.pagintion_next {
+  border: 2px solid #F1CDB3;
+  background-color: #FFFFFF;
+  padding: 15px 20px 15px 20px;
+}
+
+.pagintion_back {
+  border: 2px solid gray;
+  background-color: #FFFFFF;
+  padding: 15px 20px 15px 20px;
+}
+
+.pagination_select {
+  background-color: #F1CDB3;
+  padding: 15px 23px 15px 23px;
+}
+
+.start {
+  padding: 15px 15px 15px 15px;
+}
+
+.end {
+  padding: 15px 15px 15px 15px;
+}

@@ -1,0 +1,287 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+}
+
+h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+}
+
+.button {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 15px 45px 15px;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.06em;
+}
+
+.button_normal {
+  background: #F1CDB3;
+  border-radius: 100px;
+  color: #292929;
+}
+
+.button_bordered {
+  border: 2px solid #F1CDB3;
+  box-sizing: border-box;
+  border-radius: 100px;
+  color: #292929;
+  background: #FAFAFA;
+}
+
+.button_normal:hover {
+  background: #FDDCC4;
+  border-radius: 100px;
+  color: #292929;
+}
+
+.button_bordered:hover {
+  background: #FDDCC4;
+  border-radius: 100px;
+  color: #292929;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  font-family: Georgia, sans-serif;
+  background-color: #FFFFFF;
+  height: 120px;
+  width: 1280px;
+}
+
+.logo {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #545454;
+  display: inline-block;
+  padding: 15px 40px;
+  width: 184px;
+}
+
+.so_logo {
+  font-size: 1.3rem;
+  text-decoration: none;
+  letter-spacing: 0.12em;
+  margin-top: -10px;
+}
+
+.navigation {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  margin: -79px 40px;
+  float: right;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 15px;
+  font-stretch: inherit;
+}
+
+.activ_li {
+  border-bottom: 3px solid #F1CDB3;
+}
+
+.menu__item {
+  position: relative;
+}
+
+.text_d {
+  text-decoration: none;
+  cursor: pointer;
+  color: #545454;
+  font-size: 1.5rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  padding: 0 0 0 72px;
+  width: 100%;
+}
+
+.footer {
+  max-width: 1280px;
+  font-family: Georgia, sans-serif;
+  background: rgb(35, 33, 33);
+  background: linear-gradient(90deg, #513D2F 0%, #1A1A1C 35%);
+  padding: 40px 0 0 0;
+}
+
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-flex > div {
+  width: 33%;
+}
+
+.footer-block {
+  display: flex;
+  flex-direction: column;
+  min-width: 278px;
+  max-width: 302px;
+  padding: 0 80px 0 40px;
+}
+.footer-block h2 {
+  font-size: 36px;
+  color: #FFFFFF;
+  line-height: 45.5px;
+  width: 270px;
+}
+.footer-block a {
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #F1CDB3;
+  padding-top: 33px;
+}
+.footer-block img {
+  margin-top: 40px;
+}
+
+.pets {
+  font-family: Georgia, sans-serif;
+  background-color: #F6F6F6;
+  max-width: 1280px;
+  padding-bottom: 100px;
+}
+
+.pets_title {
+  text-align: center;
+  font-size: 3.5rem;
+  max-width: 400px;
+  color: #545454;
+  line-height: 45.5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 45px;
+}
+
+.pets_flex > div {
+  width: 25%;
+}
+
+.pets_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pets_block {
+  display: flex;
+  max-width: 270px;
+  height: 435px;
+  background-color: #FAFAFA;
+  border-radius: 9px 9px 0 0;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 20px 15px 20px;
+}
+
+.pets_name {
+  font-family: Georgia, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 22.72px;
+}
+
+.pets_btn {
+  border: 2px solid #F1CDB3;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 15px 45px 15px 45px;
+  text-decoration: none;
+  color: #292929;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.btn {
+  padding-top: 30px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+  cursor: pointer;
+}
+
+.pagination-btn {
+  border-radius: 50px;
+  margin: 10px 10px 10px 10px;
+}
+
+.pagintion_next {
+  border: 2px solid #F1CDB3;
+  background-color: #FFFFFF;
+  padding: 15px 20px 15px 20px;
+}
+
+.pagintion_back {
+  border: 2px solid gray;
+  background-color: #FFFFFF;
+  padding: 15px 20px 15px 20px;
+}
+
+.pagination_select {
+  background-color: #F1CDB3;
+  padding: 15px 23px 15px 23px;
+}
+
+.start {
+  padding: 15px 15px 15px 15px;
+}
+
+.end {
+  padding: 15px 15px 15px 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
