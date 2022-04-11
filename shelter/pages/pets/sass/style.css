@@ -284,4 +284,20 @@ h5 {
   padding: 15px 15px 15px 15px;
 }
 
+.pets_btn:hover {
+  background: #FDDCC4;
+  border-radius: 100px;
+  color: #292929;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.pagintion_back:hover, .pagintion_next:hover {
+  background: #FDDCC4;
+  border-radius: 100px;
+  color: #292929;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
 /*# sourceMappingURL=style.css.map */
