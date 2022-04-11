@@ -28,6 +28,12 @@
     line-height: 160%;
     font-family: 'Arial';
     color: #CDCDCD;
+    
+    .text_decor {
+        text-decoration: none;
+        color: #CDCDCD;
+        cursor: pointer;
+    }
 }
 
 .header__navigation {

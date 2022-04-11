@@ -6,12 +6,15 @@
     font-size: 1.7rem;
     line-height: 2.2rem;
     letter-spacing: 0.06em;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .button_normal {
     background: $color-brand;
     border-radius: 100px;
     color: $color-button-text;
+    cursor: pointer;
 }
 
 .button_bordered {
@@ -20,6 +23,7 @@
     border-radius: 100px;
     color: $color-button-text;
     background: $color-button-second;
+    cursor: pointer;
 
 }
 
@@ -27,10 +31,19 @@
     background: $color-button-primary;
     border-radius: 100px;
     color: $color-button-text;
+    cursor: pointer;
 }
 
 .button_bordered:hover {
     background: $color-button-primary;
     border-radius: 100px;
+    color: $color-button-text;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.anchor {
+    text-decoration: none;
+    cursor: pointer;
     color: $color-button-text;
 }

@@ -60,12 +60,15 @@ h5 {
   font-size: 1.7rem;
   line-height: 2.2rem;
   letter-spacing: 0.06em;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .button_normal {
   background: #F1CDB3;
   border-radius: 100px;
   color: #292929;
+  cursor: pointer;
 }
 
 .button_bordered {
@@ -74,17 +77,27 @@ h5 {
   border-radius: 100px;
   color: #292929;
   background: #FAFAFA;
+  cursor: pointer;
 }
 
 .button_normal:hover {
   background: #FDDCC4;
   border-radius: 100px;
   color: #292929;
+  cursor: pointer;
 }
 
 .button_bordered:hover {
   background: #FDDCC4;
   border-radius: 100px;
+  color: #292929;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.anchor {
+  text-decoration: none;
+  cursor: pointer;
   color: #292929;
 }
 
@@ -121,6 +134,11 @@ h5 {
   font-family: "Arial";
   color: #CDCDCD;
 }
+.navigation__link .text_decor {
+  text-decoration: none;
+  color: #CDCDCD;
+  cursor: pointer;
+}
 
 .header__navigation {
   display: flex;
@@ -146,15 +164,59 @@ h5 {
   background-color: #F6F6F6;
 }
 
-.our_friends {
+.friend__wrapper {
   background-color: #F6F6F6;
+  margin: 0 40px 0 40px;
 }
 
 .friend__content {
+  position: absolute;
+  width: 400px;
+  height: 90px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 4.5rem;
+  letter-spacing: 0.06em;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 80px 400px 607px 400px;
+  text-align: center;
+}
+
+.pets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  height: 435px;
+  background: #FAFAFA;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.pet_name {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.layout-3-colomn {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.button_primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .not_only {
@@ -214,6 +276,26 @@ h5 {
 
 .img_about {
   left: 175px;
+}
+
+.help_wrapper {
+  background-color: #FFFFFF;
+  margin: 0 40px 0 40px;
+}
+
+.help_content {
+  position: absolute;
+  width: 308px;
+  height: 90px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 4.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /*# sourceMappingURL=style.css.map */
