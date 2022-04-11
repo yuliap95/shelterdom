@@ -1,0 +1,36 @@
+.button { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 45px 15px;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.06em;
+}
+
+.button_normal {
+    background: #F1CDB3;;
+    border-radius: 100px;
+    color: #292929;
+}
+
+.button_bordered {
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    color:#292929;
+    background: #FAFAFA;
+
+}
+
+.button_normal:hover {
+    background: #FDDCC4;
+    border-radius: 100px;
+    color: #292929;
+}
+
+.button_bordered:hover {
+    background: #FDDCC4;
+    border-radius: 100px;
+    color: #292929;
+}

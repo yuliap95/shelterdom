@@ -1,0 +1,53 @@
+.header {
+  font-family: Georgia, sans-serif;
+  background-color: #FFFFFF;
+  height: 120px;
+  width: 1280px;
+}
+
+.logo {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #545454;
+  display: inline-block;
+  padding: 30px 40px;
+  width: 184px;
+}
+
+.so_logo {
+  font-size: 1.3rem;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  margin-top: -10px;
+}
+
+.navigation {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  margin: -79px 40px;
+  float: right;
+
+}
+.navigation li {
+  display: inline-block;
+  margin: 15px;
+  font-stretch: inherit;
+}
+
+.activ_li {
+  border-bottom: 3px solid #F1CDB3;
+}
+
+.menu__item {
+  position: relative;
+
+}
+
+.text_d {
+  text-decoration: none;
+  cursor: pointer;
+  color: #545454;
+  font-size: 1.5rem;
+}

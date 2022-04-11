@@ -1,0 +1,58 @@
+.pets {
+  font-family: Georgia, sans-serif;
+
+  background-color: #F6F6F6;
+  max-height: 1342px;
+  padding: 0 40px 0 40px;
+}
+
+.pets_title {
+  text-align: center;
+  font-size: 3.5rem;
+  max-width: 400px;
+  color: #545454;
+  line-height: 45.5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 45px;
+}
+
+.pets_content {
+  display: flex;
+  align-content: stretch;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.pets_block {
+  width: 25%;
+  max-width: 270px;
+  max-height: 435px;
+  background-color: #FAFAFA;
+  border-radius: 9px 9px 0 0;
+}
+
+.pets_name {
+  font-family: Georgia, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 22.72px;
+  padding-top: 30px;
+}
+
+.pets_btn {
+  border: 2px solid #F1CDB3;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 15px 45px 15px 45px;
+  text-decoration: none;
+  color: #292929;
+  text-align: center;
+  font-size: 1.7rem;
+}
+.btn {
+  padding-left: 41px;
+  padding-top: 30px;
+}
+
