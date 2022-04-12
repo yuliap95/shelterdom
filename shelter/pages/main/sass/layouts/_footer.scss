@@ -1,6 +1,39 @@
 .footer {
     background: rgb(35,33,33);
-    background: linear-gradient(90deg, rgba(84,67,54,1) 0%, rgba(35,33,33,1) 35%); 
+    background: linear-gradient(90deg, rgba(84,67,54,1) 0%, rgba(35,33,33,1) 35%);
+    max-width: 1280px;
+    font-family: Georgia, sans-serif;
+    padding: 40px 0 0 0;
+}
+
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-flex > div {
+    width: 33%;
+}
+
+
+.footer-block {
+    display: flex;
+    flex-direction: column;
+    min-width: 278px;
+    max-width: 302px;
+    padding: 0 80px 0 40px;
+    
+    a {
+        font-size: 20px;
+        line-height: 23px;
+        text-decoration: none;
+        color: #F1CDB3;
+        padding-top: 33px;
+    }
+
+    img {
+        margin-top: 40px;
+    }
 }
 
 
